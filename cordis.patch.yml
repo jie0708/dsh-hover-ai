@@ -1,0 +1,6 @@
+# dsh-hover-ai bundle layer: hover-to-AI-knowledge-point popup for the web surface.
+# Host half: preloads a pool of AI knowledge points via the `llm` service and
+# serves them over /hover-ai/*. Browser half (dsh.client): floating popup.
+- insert:
+    - id: hover-ai
+      name: dsh-hover-ai
