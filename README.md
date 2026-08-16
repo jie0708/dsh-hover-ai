@@ -13,7 +13,9 @@ DeepSeek Harness 插件：把鼠标悬停在页面任意文字上约 1.5 秒，�
 ## 安装
 
 ```bash
-dsh plugin --profile web add link:<本目录绝对路径>
+# 方式一：克隆源码后本地链接
+git clone https://github.com/jie0708/dsh-hover-ai.git
+dsh plugin --profile web add link:<dsh-hover-ai 目录绝对路径>
 ```
 
 然后重启 DSH（插件集合变更在重启后生效）。
